@@ -1,0 +1,20 @@
+[project]
+name = "optimization-sql"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "timosii",email = "tsimashev@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10,<4"
+dependencies = [
+    "clickhouse-driver (>=0.2.9,<0.3.0)",
+    "pandas (>=2.2.3,<3.0.0)",
+    "sqlalchemy (>=2.0.38,<3.0.0)",
+    "clickhouse-sqlalchemy (>=0.3.2,<0.4.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
